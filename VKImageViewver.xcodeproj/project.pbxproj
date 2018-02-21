@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0679012039E1C0007577D5 /* VKMainCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0678FF2039E1C0007577D5 /* VKMainCollectionViewItem.m */; };
+		1A0679022039E1C0007577D5 /* VKMainCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0679002039E1C0007577D5 /* VKMainCollectionViewItem.xib */; };
+		1A06790A203A1B06007577D5 /* VKDetailsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A067909203A1B06007577D5 /* VKDetailsScreen.m */; };
+		1A06790E203A3345007577D5 /* VKCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A06790D203A3345007577D5 /* VKCollectionViewModel.m */; };
+		1A2D48CB203CCDA10015B302 /* VKCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D48CA203CCDA10015B302 /* VKCustomView.m */; };
+		1A2D48DC203CF2AF0015B302 /* NSImage+VKImage_Additionals.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D48DB203CF2AF0015B302 /* NSImage+VKImage_Additionals.m */; };
+		1AEDB3852039D3A9005867A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDB3842039D3A9005867A9 /* AppDelegate.m */; };
+		1AEDB38A2039D3A9005867A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDB3892039D3A9005867A9 /* Assets.xcassets */; };
+		1AEDB38D2039D3A9005867A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDB38B2039D3A9005867A9 /* Main.storyboard */; };
+		1AEDB3902039D3A9005867A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDB38F2039D3A9005867A9 /* main.m */; };
+		1AEDB3992039D492005867A9 /* VKMainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDB3982039D492005867A9 /* VKMainScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0678FE2039E1C0007577D5 /* VKMainCollectionViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKMainCollectionViewItem.h; sourceTree = "<group>"; };
+		1A0678FF2039E1C0007577D5 /* VKMainCollectionViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKMainCollectionViewItem.m; sourceTree = "<group>"; };
+		1A0679002039E1C0007577D5 /* VKMainCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VKMainCollectionViewItem.xib; sourceTree = "<group>"; };
+		1A067908203A1B06007577D5 /* VKDetailsScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKDetailsScreen.h; sourceTree = "<group>"; };
+		1A067909203A1B06007577D5 /* VKDetailsScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKDetailsScreen.m; sourceTree = "<group>"; };
+		1A06790C203A3345007577D5 /* VKCollectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKCollectionViewModel.h; sourceTree = "<group>"; };
+		1A06790D203A3345007577D5 /* VKCollectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKCollectionViewModel.m; sourceTree = "<group>"; };
+		1A2D48C9203CCDA10015B302 /* VKCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKCustomView.h; sourceTree = "<group>"; };
+		1A2D48CA203CCDA10015B302 /* VKCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKCustomView.m; sourceTree = "<group>"; };
+		1A2D48DA203CF2AF0015B302 /* NSImage+VKImage_Additionals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+VKImage_Additionals.h"; sourceTree = "<group>"; };
+		1A2D48DB203CF2AF0015B302 /* NSImage+VKImage_Additionals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+VKImage_Additionals.m"; sourceTree = "<group>"; };
+		1AEDB3802039D3A9005867A9 /* VKImageViewver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKImageViewver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEDB3832039D3A9005867A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AEDB3842039D3A9005867A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AEDB3892039D3A9005867A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AEDB38C2039D3A9005867A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AEDB38E2039D3A9005867A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEDB38F2039D3A9005867A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AEDB3912039D3A9005867A9 /* VKImageViewver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VKImageViewver.entitlements; sourceTree = "<group>"; };
+		1AEDB3972039D492005867A9 /* VKMainScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKMainScreen.h; sourceTree = "<group>"; };
+		1AEDB3982039D492005867A9 /* VKMainScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKMainScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEDB37D2039D3A9005867A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0678FB2039E15B007577D5 /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				1A0679002039E1C0007577D5 /* VKMainCollectionViewItem.xib */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		1A0678FC2039E185007577D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D48C8203CCD8B0015B302 /* CustomViews */,
+				1A0678FD2039E18D007577D5 /* CollectionCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A0678FD2039E18D007577D5 /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				1A0678FE2039E1C0007577D5 /* VKMainCollectionViewItem.h */,
+				1A0678FF2039E1C0007577D5 /* VKMainCollectionViewItem.m */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		1A067907203A1AF1007577D5 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				1A067908203A1B06007577D5 /* VKDetailsScreen.h */,
+				1A067909203A1B06007577D5 /* VKDetailsScreen.m */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		1A06790B203A331D007577D5 /* CollectionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A06790C203A3345007577D5 /* VKCollectionViewModel.h */,
+				1A06790D203A3345007577D5 /* VKCollectionViewModel.m */,
+			);
+			path = CollectionViewModel;
+			sourceTree = "<group>";
+		};
+		1A2D48C8203CCD8B0015B302 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D48C9203CCDA10015B302 /* VKCustomView.h */,
+				1A2D48CA203CCDA10015B302 /* VKCustomView.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1A2D48D8203CF2240015B302 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D48D9203CF22F0015B302 /* Categories */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1A2D48D9203CF22F0015B302 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D48DA203CF2AF0015B302 /* NSImage+VKImage_Additionals.h */,
+				1A2D48DB203CF2AF0015B302 /* NSImage+VKImage_Additionals.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1AEDB3772039D3A9005867A9 = {
+			isa = PBXGroup;
+			children = (
+				1AEDB3822039D3A9005867A9 /* VKImageViewver */,
+				1AEDB3812039D3A9005867A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEDB3812039D3A9005867A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDB3802039D3A9005867A9 /* VKImageViewver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEDB3822039D3A9005867A9 /* VKImageViewver */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDB3832039D3A9005867A9 /* AppDelegate.h */,
+				1AEDB3842039D3A9005867A9 /* AppDelegate.m */,
+				1AEDB39E2039D4EF005867A9 /* Application */,
+				1AEDB3892039D3A9005867A9 /* Assets.xcassets */,
+				1AEDB39B2039D4BF005867A9 /* Layers */,
+			);
+			path = VKImageViewver;
+			sourceTree = "<group>";
+		};
+		1AEDB39B2039D4BF005867A9 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D48D8203CF2240015B302 /* Helpers */,
+				1A0678FC2039E185007577D5 /* Views */,
+				1AEDB3A02039D537005867A9 /* UI */,
+				1AEDB39D2039D4CF005867A9 /* ViewControllers */,
+			);
+			name = Layers;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1AEDB39D2039D4CF005867A9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A067907203A1AF1007577D5 /* DetailVC */,
+				1AEDB39F2039D51A005867A9 /* MainVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1AEDB39E2039D4EF005867A9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDB3912039D3A9005867A9 /* VKImageViewver.entitlements */,
+				1AEDB38E2039D3A9005867A9 /* Info.plist */,
+				1AEDB38F2039D3A9005867A9 /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1AEDB39F2039D51A005867A9 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				1A06790B203A331D007577D5 /* CollectionViewModel */,
+				1AEDB3972039D492005867A9 /* VKMainScreen.h */,
+				1AEDB3982039D492005867A9 /* VKMainScreen.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		1AEDB3A02039D537005867A9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1A0678FB2039E15B007577D5 /* CollectionCells */,
+				1AEDB38B2039D3A9005867A9 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEDB37F2039D3A9005867A9 /* VKImageViewver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEDB3942039D3A9005867A9 /* Build configuration list for PBXNativeTarget "VKImageViewver" */;
+			buildPhases = (
+				1AEDB37C2039D3A9005867A9 /* Sources */,
+				1AEDB37D2039D3A9005867A9 /* Frameworks */,
+				1AEDB37E2039D3A9005867A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKImageViewver;
+			productName = VKImageViewver;
+			productReference = 1AEDB3802039D3A9005867A9 /* VKImageViewver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEDB3782039D3A9005867A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VK;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = vlad.kosyi;
+				TargetAttributes = {
+					1AEDB37F2039D3A9005867A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1AEDB37B2039D3A9005867A9 /* Build configuration list for PBXProject "VKImageViewver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEDB3772039D3A9005867A9;
+			productRefGroup = 1AEDB3812039D3A9005867A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEDB37F2039D3A9005867A9 /* VKImageViewver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEDB37E2039D3A9005867A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0679022039E1C0007577D5 /* VKMainCollectionViewItem.xib in Resources */,
+				1AEDB38A2039D3A9005867A9 /* Assets.xcassets in Resources */,
+				1AEDB38D2039D3A9005867A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEDB37C2039D3A9005867A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2D48CB203CCDA10015B302 /* VKCustomView.m in Sources */,
+				1AEDB3902039D3A9005867A9 /* main.m in Sources */,
+				1A0679012039E1C0007577D5 /* VKMainCollectionViewItem.m in Sources */,
+				1AEDB3852039D3A9005867A9 /* AppDelegate.m in Sources */,
+				1A06790E203A3345007577D5 /* VKCollectionViewModel.m in Sources */,
+				1AEDB3992039D492005867A9 /* VKMainScreen.m in Sources */,
+				1A2D48DC203CF2AF0015B302 /* NSImage+VKImage_Additionals.m in Sources */,
+				1A06790A203A1B06007577D5 /* VKDetailsScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AEDB38B2039D3A9005867A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEDB38C2039D3A9005867A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AEDB3922039D3A9005867A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AEDB3932039D3A9005867A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AEDB3952039D3A9005867A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VKImageViewver/Application/VKImageViewver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q8RRE6T68S;
+				INFOPLIST_FILE = VKImageViewver/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlaskos.VKImageViewver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AEDB3962039D3A9005867A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VKImageViewver/Application/VKImageViewver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q8RRE6T68S;
+				INFOPLIST_FILE = VKImageViewver/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlaskos.VKImageViewver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEDB37B2039D3A9005867A9 /* Build configuration list for PBXProject "VKImageViewver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEDB3922039D3A9005867A9 /* Debug */,
+				1AEDB3932039D3A9005867A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEDB3942039D3A9005867A9 /* Build configuration list for PBXNativeTarget "VKImageViewver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEDB3952039D3A9005867A9 /* Debug */,
+				1AEDB3962039D3A9005867A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEDB3782039D3A9005867A9 /* Project object */;
+}
